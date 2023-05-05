@@ -16,20 +16,24 @@
 
 <body>
     <!--Durdona-->
-    <div>
-        <header class="modal shadow-lg rounded-lg max-w-xs min-h-full "> 
+    <div class="modal shadow-lg rounded-lg max-w-xs min-h-full ">
+        <header class=" flex justify-between py-4 px-5"> 
           <h3 class="font-['Inter'] ml-2"> Header </h3>
-          <p class="font['Inter'] ml-2"> Description </p>
-          <label for="gsearch">
-            <input type="search" id="gsearch" name="gsearch"
-             placeholder="Placeholder" class="rounded text-indigo-700 ml-10">
-          </label>
-          <footer class="border-t  mt-4 border-[#22222621]">
-            <button class=" mt-6  ml-10  mb-3 rounded w-16 h-8 bg-[#1A1A1C] text-xs text-white font-medium"> Label</button>
-            <button class=" mt-6  ml-16 mb-3   rounded w-16 h-8 font-medium text-xs border">Label</button>
-        </footer>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18" stroke="#6C6F75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 6L18 18" stroke="#6C6F75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </header>
-        
+        <div class="py-4 px-6 flex flex-col gap-3">
+            <p class="font['Inter'] "> Description </p>
+            <input type="search" id="gsearch" name="gsearch"
+             placeholder="Placeholder" class="rounded text-indigo-700 border py-2 px-4 ">
+        </div> 
+          <footer class="border-t border-[#22222621] flex py-4 px-5 gap-2 justify-end">
+            <button class="  rounded p-2 px-5  bg-[#1A1A1C] text-xs text-white font-medium"> Label</button>
+            <button class=" rounded  p-2 px-5  font-medium text-xs border">Label</button>
+        </footer>
+   
     </div>
     <!--Durdona end-->
     <!-- onboarding modal -->
@@ -53,7 +57,8 @@
             </div>
         </header>
         <footer class="border-t border-[#22222621] p-4">
-            <button class="bg-[#1A1A1C] text-xs font-medium text-white py-2 px-5 w-full rounded-md hover:bg-green-500 transition-all duration-300 ease-in-out">Label</button>
+            <button class="bg-[#1A1A1C] text-xs font-medium text-white py-2 px-5 w-full 
+            rounded-md hover:bg-green-500 transition-all duration-300 ease-in-out">Label</button>
         </footer>
     </div>
     <!-- onboarding modal end -->
