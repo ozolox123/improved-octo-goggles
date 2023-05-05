@@ -7,9 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modals</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=
+              Inter&family=Lobster&family=PT+Sans+Narrow&display=swap" 
+               rel="stylesheet">
 </head>
 
 <body>
+    <!--Durdona-->
+    <div>
+        <header class="modal shadow-lg rounded-lg max-w-xs min-h-full "> 
+          <h3 class="font-['Inter'] ml-2"> Header </h3>
+          <p class="font['Inter'] ml-2"> Description </p>
+          <label for="gsearch">
+            <input type="search" id="gsearch" name="gsearch"
+             placeholder="Placeholder" class="rounded text-indigo-700 ml-10">
+          </label>
+          <footer class="border-t  mt-4 border-[#22222621]">
+            <button class=" mt-6  ml-10  mb-3 rounded w-16 h-8 bg-[#1A1A1C] text-xs text-white font-medium"> Label</button>
+            <button class=" mt-6  ml-16 mb-3   rounded w-16 h-8 font-medium text-xs border">Label</button>
+        </footer>
+        </header>
+        
+    </div>
+    <!--Durdona end-->
     <!-- onboarding modal -->
     <div class="modal shadow-lg rounded-lg absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 min-w-[24rem] max-w-lg">
         <header class="p-4 flex flex-col gap-3">
